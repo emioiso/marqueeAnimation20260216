@@ -1,0 +1,18 @@
+//
+//  orderView.swift
+//  marqueeAnimation20260216
+//
+//  Created by emi oiso on 2026/02/17.
+//
+
+import SwiftUI
+
+struct orderView: View {
+    var body: some View {
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+    }
+}
+
+#Preview {
+    orderView()
+}
