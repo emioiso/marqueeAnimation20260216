@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		850A6A772F43C12C008E4534 /* orderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850A6A762F43C12C008E4534 /* orderView.swift */; };
+		85E6FE572F4327B40060910A /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E6FE562F4327B40060910A /* Home.swift */; };
+		85E6FE592F4329420060910A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E6FE582F4329420060910A /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		85E6FE382F4322090060910A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,9 +30,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		850A6A762F43C12C008E4534 /* orderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = orderView.swift; sourceTree = "<group>"; };
 		85E6FE212F4322070060910A /* marqueeAnimation20260216.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = marqueeAnimation20260216.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85E6FE372F4322090060910A /* marqueeAnimation20260216Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = marqueeAnimation20260216Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85E6FE412F4322090060910A /* marqueeAnimation20260216UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = marqueeAnimation20260216UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85E6FE562F4327B40060910A /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		85E6FE582F4329420060910A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -88,7 +97,7 @@
 		85E6FE182F4322070060910A = {
 			isa = PBXGroup;
 			children = (
-				85E6FE232F4322070060910A /* marqueeAnimation20260216 */,
+				85E6FE552F4327860060910A /* View */,
 				85E6FE3A2F4322090060910A /* marqueeAnimation20260216Tests */,
 				85E6FE442F4322090060910A /* marqueeAnimation20260216UITests */,
 				85E6FE222F4322070060910A /* Products */,
@@ -103,6 +112,17 @@
 				85E6FE412F4322090060910A /* marqueeAnimation20260216UITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		85E6FE552F4327860060910A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				85E6FE232F4322070060910A /* marqueeAnimation20260216 */,
+				85E6FE582F4329420060910A /* ContentView.swift */,
+				850A6A762F43C12C008E4534 /* orderView.swift */,
+				85E6FE562F4327B40060910A /* Home.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +269,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				850A6A772F43C12C008E4534 /* orderView.swift in Sources */,
+				85E6FE592F4329420060910A /* ContentView.swift in Sources */,
+				85E6FE572F4327B40060910A /* Home.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +314,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z8QC62V2F3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = marqueeAnimation20260216/Info.plist;
+				INFOPLIST_FILE = View/marqueeAnimation20260216/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -323,7 +346,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z8QC62V2F3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = marqueeAnimation20260216/Info.plist;
+				INFOPLIST_FILE = View/marqueeAnimation20260216/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
